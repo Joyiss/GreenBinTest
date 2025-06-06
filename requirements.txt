@@ -1,4 +1,4 @@
-tensorflow=2.19.0
+tensorflow==2.19.0
 keras==3.9.2
 numpy==2.2.6
 opencv_python_headless==4.11.0.86
