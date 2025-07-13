@@ -87,6 +87,19 @@ page_bg_img = """
 
 st.markdown(page_bg_img,unsafe_allow_html=True)
 
+st.markdown(
+    """
+    <style>
+    /* Hide the entire toolbar container */
+    .stToolbarActions {
+        display: none !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 with tab1:
     col1, col2 = st.columns(2)
 
